@@ -13,7 +13,7 @@ from pprint import pprint
 
 from google import genai
 
-client = genai.Client(api_key="AIzaSyCaso9wrJrhGe-uWWO7Azdgc6uevt2BGqw")
+client = genai.Client(api_key="")
 
 while True:
     question = input("How can I help you?\n")
